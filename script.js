@@ -115,7 +115,7 @@ function showCartFlash() {
           <h4>${product.name}</h4>
           <p>$${product.price}</p>
           <button class="add-to-cart" data-id="${product.id}">Add to Cart</button>
-          <button class="view-details" data-id="${product.id}">View-Details</button>
+          <button class="view-details" data-id="${product.id}">View Details</button>
         `;
         productList.appendChild(el);
       });
